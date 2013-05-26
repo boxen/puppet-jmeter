@@ -10,7 +10,7 @@ class jmeter {
     before => Package['boxen/brews/jmeter'],
   }
 
-  package { 'boxen/brew/jmeter':
+  package { 'boxen/brews/jmeter':
     ensure => '2.9-boxen1',
   }
 }
