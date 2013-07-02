@@ -1,6 +1,6 @@
 # JMeter Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/todd/puppet-jmeter.png?branch=master)](https://travis-ci.org/todd/puppet-jmeter)
+[![Build Status](https://travis-ci.org/boxen/puppet-jmeter.png?branch=master)](https://travis-ci.org/boxen/puppet-jmeter)
 
 ## Usage
 
