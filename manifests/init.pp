@@ -11,6 +11,6 @@ class jmeter {
   }
 
   package { 'boxen/brews/jmeter':
-    ensure => '2.9-boxen1',
+    ensure => '2.11-boxen1',
   }
 }

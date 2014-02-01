@@ -14,7 +14,7 @@ describe 'jmeter' do
     should contain_homebrew__formula('jmeter')
 
     should contain_package('boxen/brews/jmeter').with({
-      :ensure => '2.9-boxen1'
+      :ensure => '2.11-boxen1'
     })
   end
 end

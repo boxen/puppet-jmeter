@@ -11,7 +11,7 @@ include jmeter
 ## Required Puppet Modules
 
 * `boxen`
-* `stblib`
+* `stdlib`
 * `homebrew`
 
 ## Development
