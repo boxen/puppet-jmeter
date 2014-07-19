@@ -2,7 +2,7 @@ require 'formula'
 
 class Jmeter < Formula
   homepage 'http://jmeter.apache.org/'
-  url 'http://mirror.tcpdiag.net/apache//jmeter/binaries/apache-jmeter-2.11.tgz'
+  url 'http://www.eu.apache.org/dist//jmeter/binaries/apache-jmeter-2.11.tgz'
   sha1 'e9b24f8b5f34565831aafcb046e72bdfa9537386'
   version '2.11-boxen1'
 
