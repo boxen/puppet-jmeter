@@ -8,13 +8,20 @@ describe 'jmeter' do
     }
   end
 
-  it do
-    should include_class('homebrew')
+  shared_examples 'it installs jmeter' do
+    it { should contain_class('homebrew') }
+    it { should contain_package('jmeter') }
+  end
 
-    should contain_homebrew__formula('jmeter')
+  context 'with no parameters' do
+    it_behaves_like 'it installs jmeter'
+    it { should contain_package('jmeter').with(:ensure => '2.12') }
+  end
 
-    should contain_package('boxen/brews/jmeter').with({
-      :ensure => '2.11-boxen1'
-    })
+  context 'with a version' do
+    let(:params) { { :version => '3.00' } }
+
+    it_behaves_like 'it installs jmeter'
+    it { should contain_package('jmeter').with(:ensure => '3.00') }
   end
 end
