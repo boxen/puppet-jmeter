@@ -3,6 +3,3 @@ gemfile: this/does/not/exist
 rvm:
 - 1.8.7
 - 2.0.0
-env:
-  global:
-    secure: LzfuBv6I5gK5ZA08IE6kp/GYqR9QGD0Fej9YR3XbhPjry0CU7/2p1tDoPgDe9mOouckrDf+cz2/Pvhf9QsZDhZNijet/iQUIlAL6DzLhNSeUpfa5UNgkJyHcKRIQ4HhxMsIlLuLADbNWqgFNA1dsM2NMv78M6381hdlXH1VTDT0=
