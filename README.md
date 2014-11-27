@@ -8,6 +8,18 @@
 include jmeter
 ```
 
+You can specify a version:
+
+``` puppet
+class { 'jmeter': version => '3.00' }
+```
+
+...or in Hiera...
+
+``` yaml
+jmeter::version: '3.00'
+```
+
 ## Required Puppet Modules
 
 * `boxen`

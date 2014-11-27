@@ -3,14 +3,16 @@
 # Examples
 #
 #   include jmeter
-class jmeter {
+#
+#       or
+#   class { 'jmeter': version => '3.00', }
+#
+class jmeter (
+  $version = '2.12',
+) {
   include homebrew
 
-  homebrew::formula { 'jmeter':
-    before => Package['boxen/brews/jmeter'],
-  }
-
-  package { 'boxen/brews/jmeter':
-    ensure => '2.11-boxen1',
+  package { 'jmeter':
+    ensure => $version,
   }
 }
