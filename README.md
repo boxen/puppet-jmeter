@@ -1,32 +1,7 @@
 # JMeter Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-jmeter.png?branch=master)](https://travis-ci.org/boxen/puppet-jmeter)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include jmeter
-```
-
-You can specify a version:
-
-``` puppet
-class { 'jmeter': version => '3.00' }
-```
-
-...or in Hiera...
-
-``` yaml
-jmeter::version: '3.00'
-```
-
-## Required Puppet Modules
-
-* `boxen`
-* `stdlib`
-* `homebrew`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
